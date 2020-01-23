@@ -19,5 +19,5 @@ div {
 }
 
 .col1 {
-  grid-column: 1 / span 3;
+  grid-column-start: 1;
 }
