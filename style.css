@@ -14,4 +14,6 @@ div {
 
 col {
   display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
