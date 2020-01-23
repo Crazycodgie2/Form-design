@@ -12,6 +12,6 @@ form {
   color: rgb(82, 115, 142);
 }
 
-input:first-child {
+.type {
   color: rgb(107, 161, 209);
 }
