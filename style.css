@@ -13,11 +13,5 @@ div {
 }
 
 .fieldset {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-}
-
-.fieldset > .col1 {
-  grid-column-start: 4;
+  display: inline-grid;
 }
