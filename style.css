@@ -12,7 +12,7 @@ div {
   color: rgb(82, 115, 142);
 }
 
-.col {
+.fieldset {
   display: grid;
   grid-template-columns: auto auto auto;
 }
