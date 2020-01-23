@@ -11,3 +11,7 @@ form {
 ::placeholder {
   color: rgb(82, 115, 142);
 }
+
+text {
+  color: rgb(255, 255, 255);
+}
