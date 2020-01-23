@@ -12,6 +12,6 @@ div {
   color: rgb(82, 115, 142);
 }
 
-.type {
-  color: rgb(107, 161, 209);
+col {
+  display: grid;
 }
