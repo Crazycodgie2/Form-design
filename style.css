@@ -1,11 +1,19 @@
-div {
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(237, 237, 237);
+body {
+  background-color: rgb(107, 161, 209);
 }
 
 ::placeholder {
   color: rgb(82, 115, 142);
+}
+
+label {
+  color: white;
+}
+
+input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
 }
 
 form {
@@ -14,6 +22,20 @@ form {
   font-family: arial;
   font-size: 10px;
   padding: 20px;
+}
+
+textarea {
+  height: 80px;
+  background-color: rgb(107, 161, 209);
+}
+
+input,
+textarea,
+select {
+  background-color: rgb(107, 161, 209);
+  color: white;
+  border: solid 1.3px;
+  border-color: white;
 }
 
 .col1 {
@@ -35,4 +57,23 @@ form {
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 8;
+}
+
+#fname,
+#lname,
+#email,
+#country,
+#biography,
+#pnum,
+#affiliation,
+#occupation,
+#cname,
+#gadget,
+#talent,
+#fdrink,
+#power,
+#weapon,
+#comment {
+  margin-bottom: 20px;
+  width: 80px;
 }
